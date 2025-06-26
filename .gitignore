@@ -1,0 +1,13 @@
+# Sensitive files to ignore
+id_rsa
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform/
+*.log
+*.bak
+*.terraform.lock.hcl
+
+git add main.tf variables.tf outputs.tf provider.tf  .gitignore
+
+
